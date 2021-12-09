@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style_ortak.css" />
+    <title>BirFilm</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header >
+     
+        <!-- NavBar Start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                class="logo"
+                src="https://www.logovector.org/wp-content/uploads/logos/png/b/bir_film_logo.png"
+                alt=""
+            /></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >AnaSayfa</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Yabacı Filmler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Yerli Filmler</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Animasyonlar</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="nav-item right">
+                  <a class="nav-link text-white" href="#">Üye Girişi</a>
+                </li>
+                <li class="nav-item right">
+                  <a class="nav-link text-white" href="#">Üye Ol</a>
+                </li>
+                <li class="nav-item right">
+                  <a class="nav-link text-white" href="#"
+                    ><i class="bi bi-search text-white"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+     
+    </header>
+    <!-- Header End -->
+
+    <main >
+      <!-- Caraousel Start -->
+      <div>
+        <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://www.themoviedb.org/tv/37680-suits">
+                  <img
+                    src="https://www.themoviedb.org/t/p/original/awiz8hJhnVGCD3PSre0lR4epr29.jpg"
+                    class="d-block w-100 mx-auto mb-3"
+                    alt="..."
+                /></a>
+                <div
+                  class="
+                    carousel-caption
+                    d-none d-md-block
+                    text-light
+                    bg-secondary bg-gradient bg-transparent
+                    opacity-100
+                  "
+                >
+                  <h5>SUITS</h5>
+                  <p>
+                    Önemli bir avukatı zehir gibi zekâsıyla etkileyen üniversite
+                    terk genç, avukatlık ruhsatı olmadığı halde altın gibi bir
+                    iş ortaklığı fırsatını on ikiden vurur.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a
+                  href="https://www.themoviedb.org/movie/672582-the-deep-house"
+                >
+                  <img
+                    src="https://www.themoviedb.org/t/p/original/l2Takzq8ZM1nW1ndAieH9ujURjD.jpg"
+                    class="d-block w-100 mx-auto mb-3"
+                    alt="..."
+                /></a>
+                <div
+                  class="
+                    carousel-caption
+                    d-none d-md-block
+                    text-light
+                    bg-secondary bg-gradient bg-transparent
+                    opacity-100
+                  "
+                >
+                  <h5>Derindeki Ev (2021)</h5>
+                  <p>
+                    Tina ve erkek arkadaşı Ben, terk edilmiş yapıları keşfe
+                    meraklı olan bir çiftir. Sık sık keşfe çıkan çift,
+                    bulgularını sosyal medyada takipçileriyle paylaşır. Haritada
+                    olmayan bir bölgede keşfe çıkan Tina ve Ben, uğursuz bir
+                    geçmişe sahip gizemli bir evin bulunduğuyapay bir gölün
+                    dibine dalış yapmaya karar verir. Sosyal medyada canlı yayın
+                    yaparak dalış yapan çift, çok geçmeden kendilerini korkunç
+                    bir durumla karşı karşıya bulur.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://www.themoviedb.org/movie/438631-dune">
+                  <img
+                    src="https://www.themoviedb.org/t/p/original/iCFFmXkK5FdIzqZyyQQEdpkTo8C.jpg"
+                    class="d-block w-100 mx-auto mb-3"
+                    alt="..."
+                /></a>
+                <div
+                  class="
+                    carousel-caption
+                    d-none d-md-block
+                    text-dark
+                    bg-secondary bg-gradient bg-transparent
+                    opacity-100
+                  "
+                >
+                  <h5>Dune: Çöl Gezegeni (2021)</h5>
+                  <p>
+                    Dune, kendi ailesi ve halkının geleceğini garanti altına
+                    almak için evrendeki en tehlikeli gezegene seyahat etmek
+                    zorunda olan, kavrayışının ötesinde büyük bir kaderin içine
+                    doğmuş, parlak ve yetenekli genç Paul Atreides'in hikayesini
+                    anlatıyor. Kötücül güçler, gezegenin var olan en değerli
+                    kaynağı için -insanlığın en büyük potansiyelini ortaya
+                    çıkarabilecek bir maden- çatışmaya tutuşmuşken, yalnızca
+                    korkularını yenebilenler hayatta kalacaktır.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+      <!-- Carausel End -->
+      <!-- Section-1 Sizin İçin Seçtiklerimiz Start -->
+      <section class="container">
+        <h4>Sizin İçin Seçtiklerimiz</h4>
+        <div class="card-group">
+          <div class="card">
+            <img
+              src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9xaAT3V3I9xxqnNiEjCivNFfdlh.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Simpsons in Plusaversary (2021)</h5>
+              <p class="card-text">
+                Simpsonlar bir Disney+ Günü partisine ev sahipliği yapar ve
+                Homer dışında herkes listededir. Ve macera başlar.
+              </p>
+            </div>
+            <div class="card-footer d-md-flex justify-content-between">
+              <a href="#"
+                ><input
+                  type="button"
+                  class="btn btn-outline-danger ms-0"
+                  value="Ayrıntılı Bilgi"
+              /></a>
+              <a href="#"
+                ><input
+                  type="button"
+                  class="btn btn-outline-danger ms-0"
+                  value="Fragman İzle"
+              /></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6AdXwFTRTAzggD2QUTt5B7JFGKL.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eternals(2021)</h5>
+              <p class="card-text">
+                Binlerce yıla yayılan destansı hikâye, insanlığın en eski
+                düşmanı The Devants'a karşı yeniden bir araya gelmek için
+                gölgelerden çıkarılan bir grup ölümsüz kahramanı konu alıyor.
+              </p>
+            </div>
+            <div class="card-footer d-md-flex justify-content-between">
+              <a href="#"
+                ><input
+                  type="button"
+                  class="btn btn-outline-danger ms-0"
+                  value="Ayrıntılı Bilgi"
+              /></a>
+              <a href="#"
+                ><input
+                  type="button"
+                  class="btn btn-outline-danger ms-0"
+                  value="Fragman İzle"
+              /></a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gII53HAH7UA1yx189vROMzWA5ib.jpg"
+              class="card-img-top  "
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Amina (2021)</h5>
+              <p class="card-text">
+                16. yüzyılda Nijerya'nın Zazzau bölgesinde yaşayan Amina,
+                ailesinin krallığını savunmak için askerî beceri ve taktiklerden
+                faydalanmalıdır. Gerçek bir öyküden uyarlandı.
+              </p>
+            </div>
+            <div class="card-footer d-md-flex justify-content-between">
+              <a href="#"
+                ><input
+                  type="button"
+                  class="btn btn-outline-danger ms-0"
+                  value="Ayrıntılı Bilgi"
+              /></a>
+              <a href="#"
+                ><input
+                  type="button"
+                  class="btn btn-outline-danger ms-0"
+                  value="Fragman İzle"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section-1 End -->
+      <!-- Section-2 Albüm Öne Çıkanlar start -->
+      <section class="container">
+        <div class="row">
+          <h4 class="text-dark bg-light text-start mt-2" style="height: 40px">
+            Öne Çıkanlar
+          </h4>
+          <div class="col-sm-3 col-md-2">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kWehgvKLoJECYnpYUbKGsaN0POo.jpg"
+                class="w-100 opc"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-sm-3 col-md-2">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rqeYMLryjcawh2JeRpCVUDXYM5b.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-sm-3 col-md-2">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ssApiPZ0O0U7IHPJ306i29Ejcuw.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-sm-3 col-md-2">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zI55RLElxhH9srRWsQ1eQqcRs2U.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-sm-3 col-md-2">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jArnRnllnxbvE2CEV8jc2hhwweS.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-sm-3 col-md-2">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/chTkFGToW5bsyw3hgLAe4S5Gt3.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-sm-4 col-md-2 mt-3">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nj5HmHRZsrYQEYYXyAusFv35erP.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-sm-4 col-md-2 mt-3">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zWMAdiQGV4V3qCq2z9ku3Dh5q2f.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-sm-4 col-md-2 mt-3">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/a6balsDWCFMHPaPT6rFoBpNjR6z.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-sm-4 col-md-2 mt-3">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jKuDyqx7jrjiR9cDzB5pxzhJAdv.jpg"
+                class="w-100 opc"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-sm-4 col-md-2 mt-3">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ySYXzjfJfHfn7nYdTYx15UiHNjN.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+          <div class="col-sm-4 col-md-2 mt-3">
+            <a href="#"
+              ><img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/yHozwx3pQ04MHJbRFRXrGR3XwSX.jpg"
+                class="w-100 opc"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- Section-2 End -->
+      <!-- Pagination start -->
+      <div class="container mt-2">
+        <div class="row">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
+                  >Previous</a
+                >
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Pagination End -->
+      <!-- Form Start -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Yorum</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <!-- Radio Areo Start -->
+            <div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="inlineRadio1">1</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineRadio2">2</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="inlineRadio3">3</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="inlineRadio3">4</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="inlineRadioOptions"
+                  id="inlineRadio3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="inlineRadio3">5</label>
+              </div>
+            </div>
+            <!-- Radio Area End -->
+            <div class="col-auto mt-2">
+              <button type="submit" class="btn btn-primary">Gönder</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Form End -->
+    </main>
+
+    <!-- Footer Start -->
+    <footer class="container-fluid mt-3 bg-danger p-5">
+      <div class="row">
+        <div class="col-md-2 offset-1 my-auto d-flex">
+          <img
+            class="logo-f"
+            src="https://www.logovector.org/wp-content/uploads/logos/png/b/bir_film_logo.png"
+            alt=""
+          />
+        </div>
+        <div class="col-md-2 d-flex text-f text-end d-none d-md-block">
+          <h5>TEMEL</h5>
+          <a href="#"><span>Site Hakkında</span></a> <br />
+          <a href="#"><span>Bize Ulaşın</span></a>
+        </div>
+        <div class="col-md-2 d-flex text-f text-end d-none d-md-block">
+          <h5>KATKIDA BULUN</h5>
+          <a href="#"><span>Yeni Film Ekle</span></a> <br />
+          <a href="#"><span>Yeni Dizi Ekle</span></a> <br />
+          <a href="#"><span>Hata Bildir</span></a>
+        </div>
+        <div class="col-md-2 d-flex text-f text-end d-none d-md-block">
+          <h5>YASAL</h5>
+          <a href="#"><span>Kullanım Koşulları</span></a> <br />
+          <a href="#"><span>API Kullanım Şartları</span></a> <br />
+          <a href="#"><span>Gizlilik Politikası</span></a>
+        </div>
+        <!-- Icons Start -->
+        <div class="col-md-2 d-flex align-items-center justify-content-end icn">
+          <a href="#">
+            <i class="bi bi-twitter ms-3" style="color: #333"></i
+          ></a>
+          <a href="#">
+            <i class="bi bi-instagram ms-3" style="color: #333"></i
+          ></a>
+          <a href="#">
+            <i class="bi bi-facebook ms-3" style="color: #333"></i
+          ></a>
+          <a href="#">
+            <i class="bi bi-youtube mx-3" style="color: #333"></i
+          ></a>
+        </div>
+        <!-- Icon End -->
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
